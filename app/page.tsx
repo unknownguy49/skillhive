@@ -409,18 +409,6 @@ export default function Home() {
             <p className="text-sm text-muted-foreground mb-4 max-w-[300px]">
               Micro-time skill sharing platform connecting people through knowledge exchange.
             </p>
-            <div className="flex gap-4">
-              {["twitter", "facebook", "instagram", "linkedin"].map((social) => (
-                <Link
-                  key={social}
-                  href={`#${social}`}
-                  className="rounded-full bg-muted p-2 text-muted-foreground hover:text-primary"
-                >
-                  <span className="sr-only">{social}</span>
-                  <div className="h-4 w-4" />
-                </Link>
-              ))}
-            </div>
           </div>
           <div>
             <h3 className="font-medium mb-4">Platform</h3>
